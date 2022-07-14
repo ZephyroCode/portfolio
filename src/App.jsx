@@ -1,3 +1,11 @@
-const App = () => <h1>Holis</h1>;
+import Header from './components/Header';
+
+const App = () => {
+	return (
+		<div>
+			<Header />
+		</div>
+	);
+};
 
 export default App;

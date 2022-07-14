@@ -1,0 +1,7 @@
+@import '../styles/abstracts/variables.scss';
+
+.darkTheme {
+	$textColor: hsl(0, 0%, 83%);
+	$bgColor: hsl(0, 0%, 15%);
+	$bgCardColor: hsl(0, 0%, 20%);
+}
