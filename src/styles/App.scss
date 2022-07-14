@@ -1,7 +1,15 @@
-@import '../styles/abstracts/variables.scss';
+@import './abstracts/variables.css';
+
+body {
+	background-color: var(--bgColor);
+	color: var(--textColor);
+	transition: var(--transition);
+	font-family: sans-serif;
+	user-select: none;
+}
 
 .darkTheme {
-	$textColor: hsl(0, 0%, 83%);
-	$bgColor: hsl(0, 0%, 15%);
-	$bgCardColor: hsl(0, 0%, 20%);
+	color: hsl(0, 0%, 90%);
+  background-color: #3a3f47;
+  --bg-card-color: #292f36;
 }

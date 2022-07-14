@@ -1,0 +1,12 @@
+:root {
+  --primary-color: hsl(137, 73%, 61%);
+  --pink: #ff6c89;
+  --celeste: #a8f9ff;
+  --purple: #6874e8;
+  --blue: 1098f7;
+  --text-color: hsl(0, 0%, 31%);
+  --bg-color: hsl(0, 0%, 90%);
+  --bg-card-color: hsl(0, 0%, 98%);
+  --border-radius: 0.4em;
+  --transition: color 0.1s, background-color 0.2s ease-in-out;
+}

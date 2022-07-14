@@ -1,35 +1,35 @@
 {
-  "profile": {
-    "role": "Front End Developer",
-    "description": "Web Developer en formación y en busca de nuevas experiencias y conocimientos. Siento pasión por las nuevas tecnologías y tengo gran interés en el diseño y el desarrollo de Videojuegos y aplicaciones, tanto móviles, como de escritorio.<br />Mi propósito es siempre estar en constante aprendizaje, desarrollar cada vez más mis habilidades, y ser capaz de cumplir cada tarea."
-  },
-  "hobbies": {
-    "first-hobbie-title": "Gaming",
-    "first-hobbie-description": "Me gusta pasar tiempo en videojuegos. En particular, me interesan los RPG, aunque siempre puedo probar otro tipo.",
-    "second-hobbie-title": "Lectura",
-    "second-hobbie-description": "Siento una gran fascinación por la lectura. Cualquier género me puede gustar, y siempre acepto recomendaciones de libros.",
-    "third-hobbie-title": "Shuffle Dance",
-    "third-hobbie-description": "Dedico tiempo a practicar Shuffle Dance. Es un estilo de baile que siempre me ha gustado."
-  },
-  "skills-card": {
-    "front-end-card-experience": "Años de Experiencia",
-    "language-card-title": "Idiomas",
-    "language-card-level": "Nivel",
-    "language-card-base-level": "Básico",
-    "language-card-high-level": "Nativo",
-    "language-card-first-language": "Español",
-    "language-card-second-language": "Inglés",
-    "other-skills-card-title": "Otras Habilidades",
-    "other-skills-card-level": "Nivel",
-    "other-skills-card-base-level": "Básico",
-    "other-skills-card-high-level": "Avanzado",
-    "other-skills-card-first-skill": "Traducción",
-    "other-skills-card-second-skill": "Redacción"
-  },
-  "projects": {
-    "first-project-first-text": "Este es mi primer proyecto. Quise hacer una página de noticias para poner en práctica mis conocimientos.",
-    "first-project-second-text": "Tengo planeado añadir más contenido al proyecto de modo que pueda ser un sitio web completo, en lugar de una simple página.",
-    "second-project-first-text": "Un proyeto simple que he hecho de Frontend Mentor, una tarjeta sencilla.",
-    "code-button": "Código"
-  }
+	"profile": {
+		"role": "Front End Developer",
+		"description": "Web Developer en formación y en busca de nuevas experiencias y conocimientos. Siento pasión por las nuevas tecnologías y tengo gran interés en el diseño y el desarrollo de Videojuegos y aplicaciones, tanto móviles, como de escritorio.<br />Mi propósito es siempre estar en constante aprendizaje, desarrollar cada vez más mis habilidades, y ser capaz de cumplir cada tarea."
+	},
+	"hobbies": {
+		"first-hobbie-title": "Gaming",
+		"first-hobbie-description": "Me gusta pasar tiempo en videojuegos. En particular, me interesan los RPG, aunque siempre puedo probar otro tipo.",
+		"second-hobbie-title": "Lectura",
+		"second-hobbie-description": "Siento una gran fascinación por la lectura. Cualquier género me puede gustar, y siempre acepto recomendaciones de libros.",
+		"third-hobbie-title": "Shuffle Dance",
+		"third-hobbie-description": "Dedico tiempo a practicar Shuffle Dance. Es un estilo de baile que siempre me ha gustado."
+	},
+	"skills-card": {
+		"front-end-card-experience": "Años de Experiencia",
+		"language-card-title": "Idiomas",
+		"language-card-level": "Nivel",
+		"language-card-base-level": "Básico",
+		"language-card-high-level": "Nativo",
+		"language-card-first-language": "Español",
+		"language-card-second-language": "Inglés",
+		"other-skills-card-title": "Otras Habilidades",
+		"other-skills-card-level": "Nivel",
+		"other-skills-card-base-level": "Básico",
+		"other-skills-card-high-level": "Avanzado",
+		"other-skills-card-first-skill": "Traducción",
+		"other-skills-card-second-skill": "Redacción"
+	},
+	"projects": {
+		"first-project-first-text": "Este es mi primer proyecto. Quise hacer una página de noticias para poner en práctica mis conocimientos.",
+		"first-project-second-text": "Tengo planeado añadir más contenido al proyecto de modo que pueda ser un sitio web completo, en lugar de una simple página.",
+		"second-project-first-text": "Un proyeto simple que he hecho de Frontend Mentor, una tarjeta sencilla.",
+		"code-button": "Código"
+	}
 }
