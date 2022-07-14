@@ -1,0 +1,50 @@
+@import '../styles/abstracts/variables.css';
+
+.card {
+	padding: 1em;
+	background-color: var(--bg-card-color);
+	border-radius: var(--border-radius);
+	transition: var(--transition);
+}
+
+.imageContainer {
+	min-width: 275px;
+	border-radius: var(--border-radius);
+	overflow: hidden;
+}
+
+.header {
+	padding: 1em 0;
+}
+
+.title {
+	margin: 0;
+	font-size: 1.2rem;
+	color: var(--primary-color);
+}
+
+.secondTitle {
+	margin: 0.5em 0;
+	font-size: 1.1rem;
+	color: var(--primary-color);
+	opacity: 0.8;
+}
+
+.subtitle {
+	font-size: 0.9rem;
+	opacity: 0.8;
+}
+
+.text {
+	font-size: 0.9rem;
+	line-height: 1.37;
+}
+
+.links {
+	margin-bottom: 0.7em;
+}
+
+.icon {
+	margin-right: 0.5em;
+	margin-bottom: 0.5em;
+}

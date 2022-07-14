@@ -1,52 +1,56 @@
-const ProfileCard = () => {
+import styles from './ProfileCard.module.scss';
+import '../resources/fa-icons/all.css';
+
+const ProfileCard = ({
+	profileImg,
+	imgAlt,
+	title,
+	secondTitle,
+	subtitle,
+	mail,
+	phone,
+	linkedin,
+	github,
+	discord,
+	text,
+}) => {
 	return (
-		<article className="card card--profile">
-					<div className="card__image-container">
-						<img
-							src="./assets/img/profile.png"
-							alt="Wilver 'Zephyro' Salazar"
-						/>
-					</div>
-					<div className="card__header">
-						<h2 className="card__title no-margin">Wilver Salazar</h2>
-						<p className="card__second-title">Zephyro Code</p>
-						<p className="card__subtitle" data-section="profile" data-value="role">
-							Front End Developer
-						</p>
-					</div>
-					<div className="card__body">
-						<div className="card__link">
-							<i className="fas fa-envelope icon"></i>
-							<a href="mailto:royceskycraft@gmail.com"
-								>RoyceSkyCraft@gmail.com</a
-							><br />
-							<i className="fas fa-phone-alt icon"></i>
-							<a href="tel:+584124204128">+58 412 4204128</a><br />
-							<i className="fab fa-github icon"></i>
-							<a href="https://github.com/ZephyroCode/" target="_blank"
-								>GitHub</a
-							><br />
-							<i className="fab fa-discord icon"></i>
-							<a
-								href="https://discordapp.com/users/271083466890674176/"
-								target="_blank"
-								>Discord</a
-							>
-						</div>
-						<p
-							className="card__text"
-							data-section="profile"
-							data-value="description"
-						>
-							I'm a Web Developer looking for new experiences and knowledge. I'm
-							very passionate about new technologies and I'm really interested
-							in design and Videogames/Apps Development.<br />My objective is
-							always be learning, improve my skills, and be able to complete any
-							task.
-						</p>
-					</div>
-				</article>
-	)
-}
+		<article className={styles.card}>
+			<div className={styles.imageContainer}>
+				<img src={profileImg} alt={imgAlt} />
+			</div>
+			<div className={styles.header}>
+				<h2 className={styles.title}>{title}</h2>
+				<p className={styles.secondTitle}>{secondTitle}</p>
+				<p className={styles.subtitle}>{subtitle}</p>
+			</div>
+			<div>
+				<div className={styles.links}>
+					<i className={`fas fa-envelope ${styles.icon}`}></i>
+					<a href={`mailto:${mail}`}>{mail}</a>
+					<br />
+					<i className={`fas fa-phone-alt ${styles.icon}`}></i>
+					<a href={`tel:${phone}`}>{phone}</a>
+					<br />
+					<i className={`fab fa-linkedin ${styles.icon}`}></i>
+					<a href={linkedin} target='_blank'>
+						LinkedIn
+					</a>
+					<br />
+					<i className={`fab fa-github ${styles.icon}`}></i>
+					<a href={github} target='_blank'>
+						GitHub
+					</a>
+					<br />
+					<i className={`fab fa-discord ${styles.icon}`}></i>
+					<a href={discord} target='_blank'>
+						Discord
+					</a>
+				</div>
+				<p className={styles.text}>{text}</p>
+			</div>
+		</article>
+	);
+};
 
 export default ProfileCard;

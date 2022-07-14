@@ -1,0 +1,27 @@
+@import '../styles/abstracts/variables.css';
+
+.hobbies {
+	align-items: start;
+	margin-bottom: 1em;
+	padding: 1em;
+	border: 1px solid var(--primary-color);
+	border-radius: var(--border-radius);
+	transition: var(--transition);
+}
+
+.imageContainer {
+	min-width: 275px;
+	border-radius: var(--border-radius);
+	overflow: hidden;
+}
+
+.title {
+	margin: 0.5em 0;
+	color: var(--primary-color);
+	transition: var(--transition);
+}
+
+.text {
+	font-size: 0.9rem;
+	line-height: 1.37;
+}
