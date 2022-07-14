@@ -1,0 +1,9 @@
+@import '../styles/abstracts/variables.css';
+
+.projectTag {
+	padding: 0.4em 0.8em;
+	border-radius: var(--border-radius);
+	background-color: var(--primary-color);
+	color: var(--bg-color);
+	transition: var(--transition);
+}

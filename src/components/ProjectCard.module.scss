@@ -13,8 +13,16 @@
 	overflow: hidden;
 }
 
-.header {
-	padding: 1em 0;
+.project {
+	position: relative;
+}
+
+.projectTags {
+	width: 275px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0.5em 0 1.3em;
+	font-size: 0.65rem;
 }
 
 .title {
@@ -23,19 +31,24 @@
 	color: var(--primary-color);
 }
 
-.secondTitle {
-	margin: 0.5em 0;
-	font-size: 1.1rem;
-	color: var(--primary-color);
-	opacity: 0.8;
-}
-
-.subtitle {
-	font-size: 0.9rem;
-	opacity: 0.8;
-}
-
 .text {
 	font-size: 0.9rem;
 	line-height: 1.37;
+}
+
+@media screen and (min-width: 721px) {
+	.card {
+		display: grid;
+		grid-template-columns: min-content 1fr;
+		grid-column: 1 / -1;
+	}
+
+	.project {
+		margin-left: 2em;
+	}
+
+	.project__tags {
+		width: 400px;
+		font-size: 0.75rem;
+	}
 }

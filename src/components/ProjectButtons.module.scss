@@ -1,0 +1,33 @@
+.buttons {
+	display: flex;
+	justify-content: space-between;
+	width: 225px;
+}
+
+.buttonPrimary {
+	width: 100px;
+	line-height: 2.5;
+	text-align: center;
+	border-radius: var(--border-radius);
+	transition: var(--transition);
+	background-color: var(--primary-color);
+	color: var(--bg-color);
+}
+
+.buttonGhost {
+	width: 100px;
+	line-height: 2.5;
+	text-align: center;
+	border-radius: var(--border-radius);
+	transition: var(--transition);
+	background-color: transparent;
+	border: 1px solid var(--primary-color);
+	color: var(--primary-color);
+}
+
+@media screen and (min-width: 721px) {
+	.buttons {
+		position: absolute;
+		bottom: 1em;
+	}
+}
