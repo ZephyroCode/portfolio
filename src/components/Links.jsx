@@ -11,17 +11,17 @@ const Links = ({ mail, phone, linkedin, github, discord }) => {
 			<a href={`tel:${phone}`}>{phone}</a>
 			<br />
 			<i className={`fab fa-linkedin ${styles.icon}`}></i>
-			<a href={linkedin} target='_blank'>
+			<a href={linkedin} target='_blank' rel='noreferrer'>
 				LinkedIn
 			</a>
 			<br />
 			<i className={`fab fa-github ${styles.icon}`}></i>
-			<a href={github} target='_blank'>
+			<a href={github} target='_blank' rel='noreferrer'>
 				GitHub
 			</a>
 			<br />
 			<i className={`fab fa-discord ${styles.icon}`}></i>
-			<a href={discord} target='_blank'>
+			<a href={discord} target='_blank' rel='noreferrer'>
 				Discord
 			</a>
 		</div>

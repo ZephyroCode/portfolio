@@ -5,7 +5,7 @@ import Main from './components/Main';
 import './styles/App.scss';
 
 const App = () => {
-	const {theme} = useContext(Context);
+	const { theme } = useContext(Context);
 
 	return (
 		<div className={theme === 'Dark Mode' ? 'darkTheme' : ''}>
