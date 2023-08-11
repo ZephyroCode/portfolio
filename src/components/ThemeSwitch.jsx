@@ -1,8 +1,8 @@
 import { useContext } from 'react';
 import { Context } from '../context/Context';
 import styles from './ThemeSwitch.module.scss';
-import moonImg from '../../../../../../assets/img/icons/moon.svg';
-import sunImg from '../../../../../../assets/img/icons/sun.svg';
+import moonImg from '/assets/img/icons/moon.svg';
+import sunImg from '/assets/img/icons/sun.svg';
 
 const ThemeSwitch = () => {
 	const { theme, setTheme } = useContext(Context);

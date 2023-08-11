@@ -1,8 +1,8 @@
 import Hobbie from './Hobbie';
 import styles from './Hobbies.module.scss';
-import gamingImg from '../../../../../../assets/img/games-hobbie.jpg';
-import readingImg from '../../../../../../assets/img/reading-hobbie.jpg';
-import shuffleImg from '../../../../../../assets/img/shuffle-hobbie.jpg';
+import gamingImg from '/assets/img/games-hobbie.jpg';
+import readingImg from '/assets/img/reading-hobbie.jpg';
+import shuffleImg from '/assets/img/shuffle-hobbie.jpg';
 
 const Hobbies = () => {
 	return (

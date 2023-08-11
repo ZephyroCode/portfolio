@@ -3,9 +3,9 @@ import ProfileCard from './ProfileCard';
 import Hobbies from './Hobbies';
 import SkillCard from './SkillCard';
 import ProjectCard from './ProjectCard';
-import profileImg from '../../../../../../assets/img/profile.png';
-import firstProjectImg from '../../../../../../assets/img/skydead-news-preview.jpg';
-import secondProjectImg from '../../../../../../assets/img/ethereum-card-preview.jpg';
+import profileImg from '/assets/img/profile.png';
+import firstProjectImg from '/assets/img/skydead-news-preview.jpg';
+import secondProjectImg from '/assets/img/ethereum-card-preview.jpg';
 
 const Main = () => {
 	return (
